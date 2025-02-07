@@ -22,7 +22,7 @@ const userRouter=require("./routes/user.js");
 
 // const MONGO_URL="mongodb://127.0.0.1:27017/wanderlust";
 
-const dburl=process.env.ATLASDB_URL;
+const dburl='mongodb+srv://bunkarghanshyam3:J3R9D7YXEGTkQySr@cluster0.cmyc7.mongodb.net/';
 
 main()
 .then(()=>{
